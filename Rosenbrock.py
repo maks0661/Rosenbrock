@@ -80,7 +80,7 @@ print(f"Best solution: x = {best_individual[0]}, y = {best_individual[1]}, f(x, 
 
 # график
 plt.plot(best_fitnesses)
-plt.title("Значение фитнес-функции на каждом поколении")
-plt.xlabel("Поколение")
-plt.ylabel("Фитнес-значение")
+plt.title("значение фитнес-функции на каждом поколении")
+plt.xlabel("поколение")
+plt.ylabel("фитнес-значение")
 plt.show()
